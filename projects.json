@@ -1,0 +1,439 @@
+[
+  {
+    "id": "proj-01",
+    "title": "My Style Hats",
+    "url": "https://my-style-hats.myshopify.com/",
+    "cms": "Shopify",
+    "categories": [
+      "ecommerce"
+    ],
+    "featuredImage": "images/projects/my hats.jpg",
+    "order": 1,
+    "featured": false
+  },
+  {
+    "id": "proj-02",
+    "title": "Second Wind Creations",
+    "url": "https://secondwindtshirts.com/",
+    "cms": "WordPress",
+    "categories": [
+      "ecommerce",
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/Second-wind.jpg",
+    "order": 2,
+    "featured": true,
+    "summary": "A WordPress e-commerce build with a fully custom front-end \u2014 product catalog and checkout flow designed and coded around the brand rather than a stock theme."
+  },
+  {
+    "id": "proj-03",
+    "title": "Launch-Path",
+    "url": "https://launch-path.com/",
+    "cms": "WordPress",
+    "categories": [
+      "functionality-focused"
+    ],
+    "featuredImage": "images/projects/launvhpath.webp",
+    "order": 3,
+    "featured": false
+  },
+  {
+    "id": "proj-04",
+    "title": "Cynthia Besteman",
+    "url": "https://www.cynthiabesteman.com/",
+    "cms": "Squarespace",
+    "categories": [
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/cynthia.webp",
+    "order": 4,
+    "featured": false
+  },
+  {
+    "id": "proj-05",
+    "title": "Cube 360\u00b0",
+    "url": "https://jonathanhayward.websitebetalink4.com/",
+    "cms": "WordPress",
+    "categories": [
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/Jonathan.webp",
+    "order": 5,
+    "featured": false
+  },
+  {
+    "id": "proj-06",
+    "title": "Spiritual Legacy",
+    "url": "https://kristinadowding.websitebetalink4.com/",
+    "cms": "WordPress",
+    "categories": [
+      "ecommerce",
+      "frontend-designs",
+      "functionality-focused"
+    ],
+    "featuredImage": "images/projects/kristinadowding.jpg",
+    "order": 6,
+    "featured": true,
+    "summary": "A WordPress build spanning e-commerce, custom front-end design, and functionality work \u2014 product listings, bespoke layout components, and interactive features built into one cohesive site."
+  },
+  {
+    "id": "proj-07",
+    "title": "The Conscious Ballet",
+    "url": "https://theconsciousballet.websitebetalink4.com/",
+    "cms": "WordPress",
+    "categories": [
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/theconsciousballet.webp",
+    "order": 7,
+    "featured": false
+  },
+  {
+    "id": "proj-08",
+    "title": "COVENANT",
+    "url": "https://covsecurity.com/",
+    "cms": "WordPress",
+    "categories": [
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/covsecurity.webp",
+    "order": 8,
+    "featured": false
+  },
+  {
+    "id": "proj-09",
+    "title": "Medium Paula Rita",
+    "url": "https://mediumpaularita.com/",
+    "cms": "WordPress",
+    "categories": [
+      "frontend-designs",
+      "functionality-focused"
+    ],
+    "featuredImage": "images/projects/mediumpaularita.jpg",
+    "order": 9,
+    "featured": false
+  },
+  {
+    "id": "proj-10",
+    "title": "Just A Conversation LLC",
+    "url": "https://justaconversationllc.com/",
+    "cms": "WordPress",
+    "categories": [
+      "frontend-designs",
+      "functionality-focused"
+    ],
+    "featuredImage": "images/projects/httpsjustaconversationllc.webp",
+    "order": 10,
+    "featured": false
+  },
+  {
+    "id": "proj-11",
+    "title": "Whole-Teams",
+    "url": "https://whole-teams.com/",
+    "cms": "WordPress",
+    "categories": [
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/whole-teams.png",
+    "order": 11,
+    "featured": false
+  },
+  {
+    "id": "proj-12",
+    "title": "Films By Richard",
+    "url": "http://filmsbyrichard.com/",
+    "cms": "WordPress",
+    "categories": [
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/httpsfilmsbyrichard.png",
+    "order": 12,
+    "featured": false
+  },
+  {
+    "id": "proj-13",
+    "title": "For The Girls",
+    "url": "https://wellnessforthegirls.com/",
+    "cms": "WordPress",
+    "categories": [
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/httpswellnessforthegirls.webp",
+    "order": 13,
+    "featured": false
+  },
+  {
+    "id": "proj-14",
+    "title": "IFR Collective",
+    "url": "https://ifrcollective.com/",
+    "cms": "WordPress",
+    "categories": [
+      "functionality-focused",
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/ifrcollective.webp",
+    "order": 14,
+    "featured": false
+  },
+  {
+    "id": "proj-15",
+    "title": "Meldi Health Clinic",
+    "url": "https://meldichealthclinic.com/",
+    "cms": "WordPress",
+    "categories": [
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/meldichealthclinic-the actual link doesnot have the appointments slug.webp",
+    "order": 15,
+    "featured": false
+  },
+  {
+    "id": "proj-16",
+    "title": "Space + Opportunity",
+    "url": "https://spacenopportunity.com/",
+    "cms": "WordPress",
+    "categories": [
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/spacenopportunity.webp",
+    "order": 16,
+    "featured": false
+  },
+  {
+    "id": "proj-17",
+    "title": "Fogcutter",
+    "url": "https://fogcutter.net/",
+    "cms": "WordPress",
+    "categories": [
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/httpsfogcutter.webp",
+    "order": 17,
+    "featured": false
+  },
+  {
+    "id": "proj-18",
+    "title": "Soiladee Farm",
+    "url": "https://soiladeefarmco.com/",
+    "cms": "WordPress",
+    "categories": [
+      "ecommerce"
+    ],
+    "featuredImage": "images/projects/httpssoiladeefarmco.webp",
+    "order": 18,
+    "featured": false
+  },
+  {
+    "id": "proj-19",
+    "title": "Mohsen Janatpour",
+    "url": "https://mohsenjanatpour.com/",
+    "cms": "WordPress",
+    "categories": [
+      "ecommerce",
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/httpsmohsenjanatpour.webp",
+    "order": 19,
+    "featured": false
+  },
+  {
+    "id": "proj-20",
+    "title": "Sticky Fingers",
+    "url": "https://cin-stickyfingers.com/",
+    "cms": "WordPress",
+    "categories": [
+      "ecommerce",
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/cin-stickyfingers.jpg",
+    "order": 20,
+    "featured": false
+  },
+  {
+    "id": "proj-21",
+    "title": "Brav Expression LLC",
+    "url": "https://bravexpressionllc.com/",
+    "cms": "WordPress",
+    "categories": [
+      "ecommerce",
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/httpsbravexpressionllc.webp",
+    "order": 21,
+    "featured": false
+  },
+  {
+    "id": "proj-22",
+    "title": "Neuro Innovators",
+    "url": "https://neuro-innovators.com/",
+    "cms": "WordPress",
+    "categories": [
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/neuro-innovators.jpeg",
+    "order": 22,
+    "featured": false
+  },
+  {
+    "id": "proj-23",
+    "title": "Joyful Living",
+    "url": "https://joyfullivingwithdeb.com/",
+    "cms": "WordPress",
+    "categories": [
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/joyfullivingwithdeb.webp",
+    "order": 23,
+    "featured": false
+  },
+  {
+    "id": "proj-24",
+    "title": "Haus Of Luxe",
+    "url": "http://hausofluxestaging.com/",
+    "cms": "WordPress",
+    "categories": [
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/hausofluxestaging.webp",
+    "order": 24,
+    "featured": false
+  },
+  {
+    "id": "proj-25",
+    "title": "Karyzma Hair",
+    "url": "https://karyzmahair.com/",
+    "cms": "WordPress",
+    "categories": [
+      "ecommerce"
+    ],
+    "featuredImage": "images/projects/karyzmahair.webp",
+    "order": 25,
+    "featured": false
+  },
+  {
+    "id": "proj-26",
+    "title": "RLH Wood",
+    "url": "https://rlhwood.com/",
+    "cms": "WordPress",
+    "categories": [
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/rlhwood.jpg",
+    "order": 26,
+    "featured": false
+  },
+  {
+    "id": "proj-27",
+    "title": "Weightloss Solutions",
+    "url": "https://weightloss-solutions.org/",
+    "cms": "WordPress",
+    "categories": [
+      "functionality-focused"
+    ],
+    "featuredImage": "images/projects/weightloss-solutions.webp",
+    "order": 27,
+    "featured": false
+  },
+  {
+    "id": "proj-28",
+    "title": "Wasatch Heat Cable",
+    "url": "https://wasatchheatcable.com/",
+    "cms": "WordPress",
+    "categories": [
+      "functionality-focused",
+      "ecommerce"
+    ],
+    "featuredImage": "images/projects/wasatchheatcable.webp",
+    "order": 28,
+    "featured": false
+  },
+  {
+    "id": "proj-29",
+    "title": "Soul Rising Astrology",
+    "url": "https://soulrisingastrology.com/",
+    "cms": "WordPress",
+    "categories": [
+      "functionality-focused"
+    ],
+    "featuredImage": "images/projects/soulrisingastrology.png",
+    "order": 29,
+    "featured": false
+  },
+  {
+    "id": "proj-30",
+    "title": "Drayvax",
+    "url": "https://drayvax.com/",
+    "cms": "WordPress",
+    "categories": [
+      "ecommerce",
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/drayvax.webp",
+    "order": 30,
+    "featured": false
+  },
+  {
+    "id": "proj-31",
+    "title": "Knights of Columbus Chicago",
+    "url": "http://kofcchicago.org/",
+    "cms": "WordPress",
+    "categories": [
+      "functionality-focused"
+    ],
+    "featuredImage": "images/projects/kofcchicago.webp",
+    "order": 31,
+    "featured": false
+  },
+  {
+    "id": "proj-32",
+    "title": "Boss Services",
+    "url": "http://tom.websitebetalink4.com/",
+    "cms": "WordPress",
+    "categories": [
+      "ecommerce",
+      "functionality-focused",
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/tom.png",
+    "order": 32,
+    "featured": false
+  },
+  {
+    "id": "proj-33",
+    "title": "Tun Tavern Tactical",
+    "url": "https://tuntaverntactical.us/",
+    "cms": "WordPress",
+    "categories": [
+      "ecommerce",
+      "functionality-focused"
+    ],
+    "featuredImage": "images/projects/tuntaverntactical.jpg",
+    "order": 33,
+    "featured": false
+  },
+  {
+    "id": "proj-34",
+    "title": "Gigi's Gourmet Snacks",
+    "url": "https://gigisgourmetsnacks.com/",
+    "cms": "WordPress",
+    "categories": [
+      "ecommerce",
+      "functionality-focused"
+    ],
+    "featuredImage": "images/projects/gigisgourmetsnacks.jpg",
+    "order": 34,
+    "featured": false
+  },
+  {
+    "id": "proj-35",
+    "title": "RS Web Creator",
+    "url": "https://rswebcreator.com/",
+    "cms": "WordPress",
+    "categories": [
+      "frontend-designs"
+    ],
+    "featuredImage": "images/projects/rsweb.png",
+    "order": 35,
+    "featured": false
+  }
+]
