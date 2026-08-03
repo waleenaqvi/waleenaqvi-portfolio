@@ -12,7 +12,7 @@ export const AboutPage: React.FC = () => {
   const timeline = [
     {
       year: '2025 — Present',
-      title: 'CMS & Web Development Intern',
+      title: 'CMS & Web Developer',
       company: 'Infinit Digital Solutions',
       companyUrl: 'https://infinitdigitalsolutions.com/',
       description:
@@ -39,8 +39,8 @@ export const AboutPage: React.FC = () => {
   const toolbelt = [
     { category: 'CMS Platforms', tools: ['WordPress', 'Shopify', 'WooCommerce'] },
     { category: 'Core Web', tools: ['HTML', 'CSS', 'JavaScript', 'PHP'] },
-    { category: 'SEO & Performance', tools: ['Basic SEO', 'Performance Optimization'] },
-    { category: 'Other Skills', tools: ['WooCommerce', 'ACF', 'SCF', 'ElementorPro', 'SMTP', 'VibeCoding'] }
+    { category: 'SEO & Performance', tools: ['Basic SEO', 'Performance Optimization', 'Speed Optimization'] },
+    { category: 'Other Skills', tools: ['WooCommerce', 'ACF', 'ElementorPro', 'SMTP', 'VibeCoding'] }
   ];
 
   const qualifications = [

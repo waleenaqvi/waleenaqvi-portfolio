@@ -231,8 +231,6 @@ Sent via Walee Naqvi Portfolio Platform`;
                   <option className="bg-slate-800 text-white" value="Shopify Storefront">E-commerce Store/Shop</option>
                   <option className="bg-slate-800 text-white" value="Squarespace Site">Functional Focused Website i.e custom features</option>                </select>
               </div>
-              
-
               {/* Message */}
               <div>
                 <label className="block text-xs font-semibold uppercase tracking-wider text-slate-300 mb-1">
