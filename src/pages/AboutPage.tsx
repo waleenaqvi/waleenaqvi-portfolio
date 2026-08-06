@@ -208,8 +208,8 @@ export const AboutPage: React.FC = () => {
                   </motion.div>
 
                   {/* Visual Node in Center (aligned with path coordinates: 1st node left, 2nd right, 3rd left) */}
-                  <div className={`absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-slate-950 border-4 border-emerald-500 hidden md:block ${
-                    idx === 0 ? 'translate-x-[-22px]' : idx === 1 ? 'translate-x-[6px]' : 'translate-x-[-22px]'
+                  <div className={`absolute left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-slate-950 border-4 border-emerald-500 hidden md:block timeline-dot-${idx + 1} ${
+                    idx === 0 ? 'translate-x-[-4px]' : idx === 1 ? 'translate-x-[-12px]' : 'translate-x-[-12px]'
                   }`} />
 
                   {/* Spacer for layout balance */}

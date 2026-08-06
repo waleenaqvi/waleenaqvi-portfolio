@@ -12,7 +12,7 @@ import { PrivacyPolicyPage } from './pages/PrivacyPolicyPage';
 import { LenisController } from './components/LenisController';
 
 const AppContent: React.FC = () => {
-  const { activePageView } = useTheme();
+  const { activePageView, isContactModalOpen, selectedProject, isProjectManagerOpen } = useTheme();
 
   return (
     <div className="min-h-screen flex flex-col bg-bgLight dark:bg-bgDark text-textDark dark:text-textLight font-body transition-colors duration-300">
@@ -40,9 +40,15 @@ const AppContent: React.FC = () => {
       <Footer />
 
       {/* Popup Modals */}
-      <ContactModal />
-      <ProjectDetailModal />
-      <ProjectManagerModal />
+      <AnimatePresence>
+        {isContactModalOpen && <ContactModal />}
+      </AnimatePresence>
+      <AnimatePresence>
+        {selectedProject && <ProjectDetailModal />}
+      </AnimatePresence>
+      <AnimatePresence>
+        {isProjectManagerOpen && <ProjectManagerModal />}
+      </AnimatePresence>
     </div>
   );
 };

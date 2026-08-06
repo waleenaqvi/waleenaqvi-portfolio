@@ -40,7 +40,12 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   // Dynamic projects list (persisted in local storage for easy editing/adding)
-const [projects, setProjects] = useState<Project[]>(INITIAL_PROJECTS);
+  const [projects, setProjects] = useState<Project[]>(() => {
+    // If the user wants original projects, we read directly from INITIAL_PROJECTS
+    // and override any custom local modifications saved previously.
+    localStorage.removeItem('wali_portfolio_projects');
+    return INITIAL_PROJECTS;
+  });
 
   // Project manager drawer state
   const [isProjectManagerOpen, setIsProjectManagerOpen] = useState<boolean>(false);
@@ -63,6 +68,10 @@ const [projects, setProjects] = useState<Project[]>(INITIAL_PROJECTS);
       localStorage.setItem('wali_portfolio_theme', 'light');
     }
   }, [isDarkMode]);
+
+  useEffect(() => {
+    localStorage.setItem('wali_portfolio_projects', JSON.stringify(projects));
+  }, [projects]);
 
 
   const toggleDarkMode = () => setIsDarkMode((prev) => !prev);

@@ -145,9 +145,9 @@ export const Footer: React.FC = () => {
 
           <button
             onClick={() => scrollToTop('smooth')}
-            className="p-2.5 rounded-full border border-emerald-500/20 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-500/10 transition-colors flex items-center gap-1.5"
+            className="p-2.5 rounded-full border border-emerald-500/20 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-500/10 transition-colors flex items-center justify-center"
+            aria-label="Scroll to top"
           >
-            <span>Back to top</span>
             <ArrowUp className="w-3.5 h-3.5" />
           </button>
         </div>
