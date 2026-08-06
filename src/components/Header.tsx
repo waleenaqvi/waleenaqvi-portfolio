@@ -156,7 +156,7 @@ export const Header: React.FC = () => {
                 </div>
 
                 {/* Main Links */}
-                <nav className="flex flex-col gap-6">
+                <nav className="flex flex-col gap-2">
                   <button
                     onClick={() => handleNavClick('home')}
                     className={`w-full text-left font-heading font-bold text-3xl tracking-tight py-2 transition-colors ${

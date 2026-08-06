@@ -266,6 +266,38 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
     shell.addEventListener('pointermove', pointerMoveHandler);
     shell.addEventListener('pointerleave', pointerLeaveHandler);
 
+    // Touch events to prevent sticky mobile hovers
+    const handleTouchStart = (e: TouchEvent) => {
+      if (e.touches.length > 0) {
+        const touch = e.touches[0];
+        const rect = shell.getBoundingClientRect();
+        const x = touch.clientX - rect.left;
+        const y = touch.clientY - rect.top;
+        shell.classList.add('active');
+        tiltEngine.setTarget(x, y);
+      }
+    };
+
+    const handleTouchMove = (e: TouchEvent) => {
+      if (e.touches.length > 0) {
+        const touch = e.touches[0];
+        const rect = shell.getBoundingClientRect();
+        const x = touch.clientX - rect.left;
+        const y = touch.clientY - rect.top;
+        tiltEngine.setTarget(x, y);
+      }
+    };
+
+    const handleTouchEnd = () => {
+      tiltEngine.toCenter();
+      shell.classList.remove('active');
+    };
+
+    shell.addEventListener('touchstart', handleTouchStart, { passive: true });
+    shell.addEventListener('touchmove', handleTouchMove, { passive: true });
+    shell.addEventListener('touchend', handleTouchEnd, { passive: true });
+    shell.addEventListener('touchcancel', handleTouchEnd, { passive: true });
+
     const handleClick = () => {
       if (!enableMobileTilt || location.protocol !== 'https:') return;
       const anyMotion = (window as any).DeviceMotionEvent;
@@ -294,6 +326,10 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
       shell.removeEventListener('pointerenter', pointerEnterHandler);
       shell.removeEventListener('pointermove', pointerMoveHandler);
       shell.removeEventListener('pointerleave', pointerLeaveHandler);
+      shell.removeEventListener('touchstart', handleTouchStart);
+      shell.removeEventListener('touchmove', handleTouchMove);
+      shell.removeEventListener('touchend', handleTouchEnd);
+      shell.removeEventListener('touchcancel', handleTouchEnd);
       shell.removeEventListener('click', handleClick);
       window.removeEventListener('deviceorientation', deviceOrientationHandler);
       if (enterTimerRef.current) window.clearTimeout(enterTimerRef.current);
