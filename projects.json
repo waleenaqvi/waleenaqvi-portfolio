@@ -9,7 +9,8 @@
     ],
     "featuredImage": "images/projects/my hats.jpg",
     "order": 1,
-    "featured": false
+    "featured": false,
+    "summary": "A Shopify storefront for a hat brand, built with a clean product grid, streamlined cart, and mobile-friendly checkout designed to keep browsing and buying effortless for customers on any device."
   },
   {
     "id": "proj-02",
@@ -23,7 +24,7 @@
     "featuredImage": "images/projects/Second-wind.jpg",
     "order": 2,
     "featured": true,
-    "summary": "A WordPress e-commerce build with a fully custom front-end \u2014 product catalog and checkout flow designed and coded around the brand rather than a stock theme."
+    "summary": "A WordPress e-commerce build with a fully custom front-end \u2014 product catalog and checkout flow designed and coded around the brand rather than a stock theme and a lasting impression."
   },
   {
     "id": "proj-03",
@@ -35,7 +36,8 @@
     ],
     "featuredImage": "images/projects/launvhpath.webp",
     "order": 3,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress build focused on backend functionality \u2014 custom forms, integrations, and workflow automation configured to support the business's operations behind a clean, simple front-end interface, keeping day-to-day operations reliable."
   },
   {
     "id": "proj-04",
@@ -47,19 +49,21 @@
     ],
     "featuredImage": "images/projects/cynthia.webp",
     "order": 4,
-    "featured": false
+    "featured": false,
+    "summary": "A Squarespace site styled around a custom front-end look, with tailored typography, imagery, and layout choices crafted to match the brand's personal, editorial tone rather than a generic template throughout the site."
   },
   {
     "id": "proj-05",
     "title": "Cube 360\u00b0",
-    "url": "https://jonathanhayward.websitebetalink4.com/",
+    "url": "https://cube360.shop/",
     "cms": "WordPress",
     "categories": [
       "frontend-designs"
     ],
     "featuredImage": "images/projects/Jonathan.webp",
     "order": 5,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress site with a distinctive custom front-end design, featuring tailored layouts and visual styling built to give the brand a polished, unique presence beyond standard theme defaults for the client."
   },
   {
     "id": "proj-06",
@@ -74,7 +78,7 @@
     "featuredImage": "images/projects/kristinadowding.jpg",
     "order": 6,
     "featured": true,
-    "summary": "A WordPress build spanning e-commerce, custom front-end design, and functionality work \u2014 product listings, bespoke layout components, and interactive features built into one cohesive site."
+    "summary": "A WordPress build spanning e-commerce, custom front-end design, and functionality work \u2014 product listings, bespoke layout components, and interactive features built into one cohesive, reliable site experience for every visitor."
   },
   {
     "id": "proj-07",
@@ -86,7 +90,8 @@
     ],
     "featuredImage": "images/projects/theconsciousballet.webp",
     "order": 7,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress build with a custom front-end design tailored to a ballet studio's aesthetic \u2014 soft typography, considered spacing, and imagery arranged to reflect the brand's artistic, mindful identity throughout the site."
   },
   {
     "id": "proj-08",
@@ -98,7 +103,8 @@
     ],
     "featuredImage": "images/projects/covsecurity.webp",
     "order": 8,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress site for a security firm with a custom front-end design \u2014 bold typography, structured layout, and imagery chosen to convey professionalism, trust, and operational strength to visitors for potential clients."
   },
   {
     "id": "proj-09",
@@ -111,7 +117,8 @@
     ],
     "featuredImage": "images/projects/mediumpaularita.jpg",
     "order": 9,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress build combining custom front-end design with functionality work \u2014 bespoke page layouts paired with booking and contact features tailored to a medium's personal practice, supporting both her presence and her clients."
   },
   {
     "id": "proj-10",
@@ -124,7 +131,8 @@
     ],
     "featuredImage": "images/projects/httpsjustaconversationllc.webp",
     "order": 10,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress site blending custom front-end design with functionality enhancements, including tailored page layouts and interactive features built to support the brand's coaching and consultation services for both the business and its clients."
   },
   {
     "id": "proj-11",
@@ -136,7 +144,8 @@
     ],
     "featuredImage": "images/projects/whole-teams.png",
     "order": 11,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress site with a custom front-end design, built with structured layouts and clean typography to give the brand a professional, cohesive look tailored to its audience it now conveys."
   },
   {
     "id": "proj-12",
@@ -148,7 +157,8 @@
     ],
     "featuredImage": "images/projects/httpsfilmsbyrichard.png",
     "order": 12,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress build with a custom front-end design for a filmmaker's portfolio, featuring gallery layouts and imagery-forward styling crafted to showcase creative work in a polished, cinematic way for prospective clients."
   },
   {
     "id": "proj-13",
@@ -160,7 +170,8 @@
     ],
     "featuredImage": "images/projects/httpswellnessforthegirls.webp",
     "order": 13,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress site with a custom front-end design tailored to a wellness brand, using soft color palettes, considered typography, and layout choices built around the brand's supportive, community-driven tone it aims to convey."
   },
   {
     "id": "proj-14",
@@ -173,7 +184,8 @@
     ],
     "featuredImage": "images/projects/ifrcollective.webp",
     "order": 14,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress build combining custom front-end design with functionality work \u2014 tailored layouts paired with interactive features and integrations built to support the collective's operations and member engagement day to day."
   },
   {
     "id": "proj-15",
@@ -185,7 +197,8 @@
     ],
     "featuredImage": "images/projects/meldichealthclinic-the actual link doesnot have the appointments slug.webp",
     "order": 15,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress site for a health clinic with a custom front-end design, featuring clean layouts, calming visuals, and structured navigation built to help patients find services and information easily seeking care online."
   },
   {
     "id": "proj-16",
@@ -197,7 +210,8 @@
     ],
     "featuredImage": "images/projects/spacenopportunity.webp",
     "order": 16,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress site with a custom front-end design, built with tailored layouts and typography to give the brand a distinctive, professional presence that reflects its mission and identity to new visitors."
   },
   {
     "id": "proj-17",
@@ -209,7 +223,8 @@
     ],
     "featuredImage": "images/projects/httpsfogcutter.webp",
     "order": 17,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress build with a custom front-end design, featuring tailored layouts and styling crafted to give the brand a clean, distinctive presence rather than relying on a stock theme online today."
   },
   {
     "id": "proj-18",
@@ -221,7 +236,8 @@
     ],
     "featuredImage": "images/projects/httpssoiladeefarmco.webp",
     "order": 18,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress e-commerce build for a farm brand, with a product catalog, cart, and checkout flow designed to make browsing and purchasing farm goods simple and easy for customers who shop there."
   },
   {
     "id": "proj-19",
@@ -234,7 +250,8 @@
     ],
     "featuredImage": "images/projects/httpsmohsenjanatpour.webp",
     "order": 19,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress build combining e-commerce functionality with a custom front-end design \u2014 a tailored product catalog and checkout flow paired with bespoke layout and styling choices for the brand throughout the site."
   },
   {
     "id": "proj-20",
@@ -247,7 +264,8 @@
     ],
     "featuredImage": "images/projects/cin-stickyfingers.jpg",
     "order": 20,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress e-commerce build with a custom front-end design, featuring a tailored product catalog, styled checkout flow, and layout choices crafted to match the brand's playful, distinctive identity for shoppers."
   },
   {
     "id": "proj-21",
@@ -260,7 +278,8 @@
     ],
     "featuredImage": "images/projects/httpsbravexpressionllc.webp",
     "order": 21,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress build combining e-commerce functionality with a custom front-end design, including a tailored product catalog and checkout flow styled to reflect the brand's expressive, creative identity for its audience."
   },
   {
     "id": "proj-22",
@@ -272,7 +291,8 @@
     ],
     "featuredImage": "images/projects/neuro-innovators.jpeg",
     "order": 22,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress site with a custom front-end design, built with structured layouts and clean typography to give the brand a modern, professional presence within the neuroscience and innovation space it operates in."
   },
   {
     "id": "proj-23",
@@ -284,7 +304,8 @@
     ],
     "featuredImage": "images/projects/joyfullivingwithdeb.webp",
     "order": 23,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress build with a custom front-end design tailored to a wellness coach's brand, using warm typography, imagery, and layout choices crafted to reflect a joyful, personal, approachable tone throughout the site."
   },
   {
     "id": "proj-24",
@@ -296,7 +317,8 @@
     ],
     "featuredImage": "images/projects/hausofluxestaging.webp",
     "order": 24,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress site with a custom front-end design, featuring tailored layouts and polished styling built to give the brand a luxurious, high-end visual presence online for its audience it represents."
   },
   {
     "id": "proj-25",
@@ -308,7 +330,8 @@
     ],
     "featuredImage": "images/projects/karyzmahair.webp",
     "order": 25,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress e-commerce build for a hair brand, with a tailored product catalog, cart, and checkout flow designed to make browsing and purchasing products simple and enjoyable for customers who shop there."
   },
   {
     "id": "proj-26",
@@ -320,7 +343,8 @@
     ],
     "featuredImage": "images/projects/rlhwood.jpg",
     "order": 26,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress build with a custom front-end design, featuring tailored layouts and imagery-forward styling crafted to showcase woodworking craftsmanship, attention to detail, and finish quality in a clean, professional, and inviting way."
   },
   {
     "id": "proj-27",
@@ -332,7 +356,8 @@
     ],
     "featuredImage": "images/projects/weightloss-solutions.webp",
     "order": 27,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress site focused on functionality \u2014 custom forms, booking tools, and workflow integrations configured to support the business's operations behind a clean, straightforward front-end interface for patients and its clients."
   },
   {
     "id": "proj-28",
@@ -345,7 +370,8 @@
     ],
     "featuredImage": "images/projects/wasatchheatcable.webp",
     "order": 28,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress build combining functionality work with e-commerce features \u2014 custom integrations and workflow tools paired with a product catalog and checkout flow tailored to the business's needs it depends on."
   },
   {
     "id": "proj-29",
@@ -357,7 +383,8 @@
     ],
     "featuredImage": "images/projects/soulrisingastrology.png",
     "order": 29,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress site focused on functionality \u2014 custom booking tools, forms, and integrations configured to support an astrology practice's scheduling, readings, and client communication needs efficiently for both the practitioner and her clients."
   },
   {
     "id": "proj-30",
@@ -370,7 +397,8 @@
     ],
     "featuredImage": "images/projects/drayvax.webp",
     "order": 30,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress build combining e-commerce functionality with a custom front-end design \u2014 a tailored product catalog and checkout flow paired with bespoke layout and styling choices for the brand for its audience."
   },
   {
     "id": "proj-31",
@@ -382,34 +410,22 @@
     ],
     "featuredImage": "images/projects/kofcchicago.webp",
     "order": 31,
-    "featured": false
-  },
-  {
-    "id": "proj-32",
-    "title": "Boss Services",
-    "url": "http://tom.websitebetalink4.com/",
-    "cms": "WordPress",
-    "categories": [
-      "ecommerce",
-      "functionality-focused",
-      "frontend-designs"
-    ],
-    "featuredImage": "images/projects/tom.png",
-    "order": 32,
-    "featured": false
+    "featured": false,
+    "summary": "A WordPress site focused on functionality \u2014 custom forms, event tools, and integrations configured to support the organization's community activities and member communication needs efficiently for both members and the public."
   },
   {
     "id": "proj-33",
     "title": "Tun Tavern Tactical",
-    "url": "https://tuntaverntactical.us/",
+    "url": "https://northcarolinacivildefense.us/",
     "cms": "WordPress",
     "categories": [
       "ecommerce",
       "functionality-focused"
     ],
     "featuredImage": "images/projects/tuntaverntactical.jpg",
-    "order": 33,
-    "featured": false
+    "order": 32,
+    "featured": false,
+    "summary": "A WordPress build combining e-commerce functionality with backend workflow tools \u2014 a tailored product catalog, checkout flow, and integrations configured to support the tactical gear business's day-to-day operations it depends on."
   },
   {
     "id": "proj-34",
@@ -421,8 +437,9 @@
       "functionality-focused"
     ],
     "featuredImage": "images/projects/gigisgourmetsnacks.jpg",
-    "order": 34,
-    "featured": false
+    "order": 33,
+    "featured": false,
+    "summary": "A WordPress e-commerce build combined with functionality work \u2014 a tailored product catalog, checkout flow, and custom integrations configured to support the snack brand's online sales operations smoothly it relies on."
   },
   {
     "id": "proj-35",
@@ -433,7 +450,8 @@
       "frontend-designs"
     ],
     "featuredImage": "images/projects/rsweb.png",
-    "order": 35,
-    "featured": false
+    "order": 34,
+    "featured": false,
+    "summary": "A WordPress site with a custom front-end design, featuring tailored layouts and clean typography built to give the web creation brand a polished, professional online presence for clients it now conveys."
   }
 ]
