@@ -117,10 +117,11 @@ Sent via Walee Naqvi Portfolio Platform`;
 
       {/* Modal Window */}
       <motion.div
-        initial={{ opacity: 0, scale: 0.9, y: 20 }}
+        initial={{ opacity: 0, scale: 0.95, y: 15 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
-        exit={{ opacity: 0, scale: 0.9, y: 20 }}
-        transition={{ type: 'spring', damping: 25, stiffness: 300 }}
+        exit={{ opacity: 0, scale: 0.95, y: 15 }}
+        transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+        style={{ willChange: 'transform, opacity' }}
         className="relative w-full max-w-xl bg-slate-900/40 backdrop-blur-md border border-emerald-500/20 rounded-3xl p-6 sm:p-8 shadow-2xl z-10 my-8 overflow-hidden"
       >
         {/* Header Bar */}

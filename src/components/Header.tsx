@@ -121,68 +121,102 @@ export const Header: React.FC = () => {
       {/* Mobile Drawer */}
       <AnimatePresence>
         {mobileMenuOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            className="md:hidden border-b border-emerald-500/15 bg-cardLight dark:bg-cardDark px-4 py-6 space-y-3"
-          >
-            <button
-              onClick={() => handleNavClick('home')}
-              className={`w-full flex items-center gap-3 p-3 rounded-2xl text-sm font-semibold transition-colors ${
-                activePageView === 'home'
-                  ? 'bg-emerald-500/15 text-emerald-600 dark:text-emerald-400'
-                  : 'text-textMuted'
-              }`}
-            >
-              <Home className="w-4 h-4" /> Home
-            </button>
-            <button
-              onClick={() => handleNavClick('about')}
-              className={`w-full flex items-center gap-3 p-3 rounded-2xl text-sm font-semibold transition-colors ${
-                activePageView === 'about'
-                  ? 'bg-emerald-500/15 text-emerald-600 dark:text-emerald-400'
-                  : 'text-textMuted'
-              }`}
-            >
-              <User className="w-4 h-4" /> About
-            </button>
-            <button
-              onClick={() => handleNavClick('privacy')}
-              className={`w-full flex items-center gap-3 p-3 rounded-2xl text-sm font-semibold transition-colors ${
-                activePageView === 'privacy'
-                  ? 'bg-emerald-500/15 text-emerald-600 dark:text-emerald-400'
-                  : 'text-textMuted'
-              }`}
-            >
-              <Shield className="w-4 h-4" /> Privacy Policy
-            </button>
+          <>
+            {/* Backdrop overlay */}
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setMobileMenuOpen(false)}
+              className="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm md:hidden"
+            />
 
-            <div className="pt-2 flex flex-col gap-2">
-              {(typeof window !== 'undefined' && (window.location.hash.includes('editwebsite') || window.location.pathname.includes('editwebsite') || window.location.search.includes('editwebsite'))) && (
+            {/* Right Side Panel */}
+            <motion.div
+              initial={{ x: '100%' }}
+              animate={{ x: 0 }}
+              exit={{ x: '100%' }}
+              transition={{ type: 'spring', damping: 25, stiffness: 220 }}
+              style={{ willChange: 'transform' }}
+              className="fixed top-0 right-0 bottom-0 w-[80vw] max-w-sm z-50 bg-[#090f0c] border-l border-emerald-500/10 p-6 flex flex-col justify-between shadow-2xl md:hidden"
+            >
+              <div className="space-y-8">
+                {/* Header inside drawer */}
+                <div className="flex items-center justify-between pb-6 border-b border-emerald-500/10">
+                  <span className="font-heading font-extrabold text-lg text-emerald-400">
+                    Menu
+                  </span>
+                  <button
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="p-2 rounded-xl border border-emerald-500/20 text-textDark dark:text-textLight"
+                    aria-label="Close menu"
+                  >
+                    <X className="w-6 h-6 text-emerald-400" />
+                  </button>
+                </div>
+
+                {/* Main Links */}
+                <nav className="flex flex-col gap-6">
+                  <button
+                    onClick={() => handleNavClick('home')}
+                    className={`w-full text-left font-heading font-bold text-3xl tracking-tight py-2 transition-colors ${
+                      activePageView === 'home'
+                        ? 'text-emerald-400'
+                        : 'text-slate-400 hover:text-white'
+                    }`}
+                  >
+                    Home
+                  </button>
+                  <button
+                    onClick={() => handleNavClick('about')}
+                    className={`w-full text-left font-heading font-bold text-3xl tracking-tight py-2 transition-colors ${
+                      activePageView === 'about'
+                        ? 'text-emerald-400'
+                        : 'text-slate-400 hover:text-white'
+                    }`}
+                  >
+                    About
+                  </button>
+                  <button
+                    onClick={() => handleNavClick('privacy')}
+                    className={`w-full text-left font-heading font-bold text-3xl tracking-tight py-2 transition-colors ${
+                      activePageView === 'privacy'
+                        ? 'text-emerald-400'
+                        : 'text-slate-400 hover:text-white'
+                    }`}
+                  >
+                    Privacy
+                  </button>
+                </nav>
+              </div>
+
+              {/* Drawer footer / CTA */}
+              <div className="space-y-4 pt-6 border-t border-emerald-500/10">
+                {(typeof window !== 'undefined' && (window.location.hash.includes('editwebsite') || window.location.pathname.includes('editwebsite') || window.location.search.includes('editwebsite'))) && (
+                  <button
+                    onClick={() => {
+                      setMobileMenuOpen(false);
+                      setIsProjectManagerOpen(true);
+                    }}
+                    className="w-full btn-creative-outline text-xs justify-center py-3"
+                  >
+                    <FolderKanban className="w-4 h-4 text-amber-500" />
+                    Manage Projects CMS
+                  </button>
+                )}
                 <button
                   onClick={() => {
                     setMobileMenuOpen(false);
-                    setIsProjectManagerOpen(true);
+                    openContactModal('General Inquiry');
                   }}
-                  className="w-full btn-creative-outline text-xs justify-center"
+                  className="w-full btn-creative-primary text-sm justify-center py-3.5"
                 >
-                  <FolderKanban className="w-4 h-4 text-amber-500" />
-                  Manage Projects CMS
+                  <MessageSquare className="w-4 h-4" />
+                  Get in Touch
                 </button>
-              )}
-              <button
-                onClick={() => {
-                  setMobileMenuOpen(false);
-                  openContactModal('General Inquiry');
-                }}
-                className="w-full btn-creative-primary text-xs justify-center"
-              >
-                <MessageSquare className="w-4 h-4" />
-                Get in Touch
-              </button>
-            </div>
-          </motion.div>
+              </div>
+            </motion.div>
+          </>
         )}
       </AnimatePresence>
     </header>

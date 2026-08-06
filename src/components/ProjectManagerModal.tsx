@@ -121,9 +121,11 @@ export const ProjectManagerModal: React.FC = () => {
       />
 
       <motion.div
-        initial={{ opacity: 0, scale: 0.95, y: 20 }}
+        initial={{ opacity: 0, scale: 0.97, y: 15 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
-        exit={{ opacity: 0, scale: 0.95, y: 20 }}
+        exit={{ opacity: 0, scale: 0.97, y: 15 }}
+        transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+        style={{ willChange: 'transform, opacity' }}
         className="relative w-full max-w-4xl max-h-[85vh] bg-slate-900/40 backdrop-blur-md border border-emerald-500/20 rounded-3xl p-6 sm:p-8 shadow-2xl z-10 my-auto overflow-y-auto"
         data-lenis-prevent
       >
